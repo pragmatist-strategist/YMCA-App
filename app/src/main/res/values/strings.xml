@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">Water Borne</string>
+    <string name="app_name_h">जल जनित</string>
+    <string name="what_s_on_your_mind">Enter your query</string>
+    <string name="what_s_on_your_mind_h">अपनी क्वेरी दर्ज करें</string>
+    <string name="title_activity_heat_maps">Map</string>
+    <string name="title_activity_heat_maps_h">नक्शा</string>
+    <string name="input_text">Looking for…</string>
+    <string name="input_text_h">खोज रहे हैं ...</string>
+    <string name="button_send">Go!</string>
+    <string name="button_send_h">चले जाओ!</string>
+    <string name="police_stations">Police Stations in Victoria</string>
+    <string name="police_stations_h">विक्टोरिया में पुलिस स्टेशन</string>
+    <string name="medicare">Medicare Offices</string>
+    <string name="medicare_h">चिकित्सा कार्यालय</string>
+    <string name="attrib_format">Data from &lt;a href = "%s">data.gov.in&lt;/a>, modified under &lt;a href = \"http://creativecommons.org/licenses/by/3.0/au/\">CC BY 3.0 AU&lt;/a></string>
+    <string name="police_stations_url">http://data.gov.au/dataset/police-station-locations/resource/76110b24-0f0a-4c29-9583-3f99eaba486c</string>
+    <string name="medicare_url">http://data.gov.au/dataset/location-of-medicare-offices/resource/5d38e1be-4011-49c4-8b8b-75405eeb1088</string>
+    <string name="kml_url">http://googlemaps.github.io/kml-samples/morekml/Polygons/Polygons.Google_Campus.kml</string>
+    <string name="geojson_url">https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson</string>
+    <string-array name="heatmaps_datasets_array">
+        <item>@string/police_stations</item>
+        <item>@string/medicare</item>
+    </string-array>
+    <string name="button_radius">Radius</string>
+    <string name="button_radius_h">त्रिज्या</string>
+    <string name="button_gradient">Gradient</string>
+    <string name="button_gradient_h">ढाल</string>
+    <string name="button_opacity">Opacity</string>
+    <string name="button_opacity_h">अस्पष्टता</string>
+    <string name="hint_user_id">User ID</string>
+    <string name="hint_user_id_h">यूज़र आईडी</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="get_custom_token_h">टोकन प्राप्त करें</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_h">दाखिल करना</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_account_h">खाता बनाएं</string>
+    <string name="send_link">Send Link</string>
+    <string name="send_link_h">लिंक भेजें</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_out_h">साइन आउट</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="verify_email_h">ईमेल सत्यापित करें</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnect_h">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="loading_h">लोड हो रहा है…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="custom_token_h">कस्टम टोकन</string>
+    <string name="profile">ANONYMOUS CHAT</string>
+    <string name="profile_h">अन्नमय रस</string>
+    <string name="feed">NEARBY HOSPITALS</string>
+    <string name="feed_h">नजदीकी अस्पताल</string>
+    <string name="activity">MindMate</string>
+    <string name="settings">SETTINGS</string>
+    <string name="settings_h">सेटिंग्स</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_in_h">साइन इन किया</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="signed_out_h">साइन आउट</string>
+    <string name="token_null">Token: null</string>
+    <string name="token_null_h">टोकन: अशक्त</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_email_h">ईमेल</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_h">पारण शब्द</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="desc_firebase_lockup_h">फायरबेस लोगो और नाम</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="auth_failed_h">प्रमाणीकरण विफल होना</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="start_phone_auth_h">शुरु</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="verify_phone_auth_h">सत्यापित करें</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="resend_phone_auth_h">पुन: भेजें</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_phone_number_h">फ़ोन नंबर</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="hint_verification_code_h">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_code_sent_h">कोड भेज दिया</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_failed_h">सत्यापन में विफल</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_verification_succeeded_h">सत्यापन सफल हुआd</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="status_sign_in_failed_h">भाग लेना विफल हुआ</string>
+    <string name="phone_title_text">Phone Number</string>
+    <string name="phone_title_text_h">फ़ोन नंबर</string>
+    <string name="instant_validation">instant validation</string>
+    <string name="instant_validation_h">तुरंत सत्यापन</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_status_fmt_h">Firebase User: %s</string>
+    <string name="google_status_fmt">Google User : %s</string>
+    <string name="google_status_fmt_h">Google User : %s</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings_h">सेटिंग्स</string>
+    <string name="title_activity_menuscreen">Krishi Sewa</string>
+    <string name="title_activity_menuscreen_h">कृषि सेवा</string>
+    <string name="ham">h</string>
+    <string name="ham_h">ज</string>
+    <string name="bill">Billing</string>
+    <string name="bill_h">बिलिंग</string>
+    <string name="order">Orders</string>
+    <string name="order_h">आदेश</string>
+    <string name="close">Closing Balance</string>
+    <string name="close_h">समाप्ति के समय बकाया</string>
+    <string name="sale">Sales Graph</string>
+    <string name="sale_h">बिक्री ग्राफ</string>
+    <string name="title_activity_createlisting">createlisting</string>
+    <string name="title_activity_orders">orders</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="news">Relaxing Songs</string>
+    <string name="buy">Mind Refreshing Memes</string>
+    <string name="voice">Emotion Sensor</string>
+    <string name="weather">Chatbot</string>
+    <string name="facebook_title_text">Facebook Login</string>
+    <string name="forum">Games</string>
+    <string name="passwordless_title_text">Passwordless Sign In</string>
+    <string name="weathers">Weather Forecast</string>
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+    <string name="title_activity_passwordless">PasswordlessActivity</string>
+    <string name="status_link_found">Link Not Found</string>
+    <string name="map_key">AIzaSyDxRfxqFdgUlccCFu65mDq2C9Ao33G9q4A</string>
+    <string name="status_email_not_sent">Email not send</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user_profile_photo">http://baobaoloveyou.com/flowingdrawer_icon.png</string>
+    <string name="passwordless_status_fmt">Passwordless Login</string>
+    <string name="status_email_sent">Email Not send</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="score">0</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="anonymous">Anonymous Chat</string>
+    <string name="title_activity_memes2">memes2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="chat_doctor">Chat with a doctor</string>
+    <string name="chat_doctor_h">डॉक्टर से चैट करें</string>
+    <string name="test_ai">Test with AI</string>
+    <string name="test_ai_h">एआई के साथ परीक्षण</string>
+    <string name="chatbot">Chatbot</string>
+    <string name="chatbot_h">चैट बॉट</string>
+    <string name="news_water">News</string>
+    <string name="news_water_h">समाचार</string>
+    <string name="is_safe">Is Place Safe</string>
+    <string name="input">Donate Your Info</string>
+    <string name="input_h">अपनी जानकारी दान करें</string>
+    <string name="is_safe_h">जगह सुरक्षित है ?</string>
+    <string name="home_remedies">Home Remedies</string>
+    <string name="home_remedies_h">घरेलू उपचार</string>
+    <string name="hospital">Nearest Hospital</string>
+    <string name="hospital_h">नजदीकी अस्पताल</string>
+    <string name="heatmap">Detected Cases in Area</string>
+    <string name="heatmap_h">क्षेत्र में मामलों का पता लगाया</string>
+    <string name="submit_text">Submit</string>
+    <string name="submit_text_h">जमा करें</string>
+
+    <string name="sensibility">Sensibility</string>
+    <string name="shake_number">Number of shakes to trigger</string>
+    <string name="label_sensibility">Sensibility: %sG</string>
+    <string name="label_shake_number">Number of shakes: %s</string>
+    <string name="shake_detector_created">Shake detector created and started!</string>
+    <string name="shake_detector_error">ERROR: Cannot create and start shake detector!</string>
+    <string name="shake_detector_restarted">Listener restarted successfully.</string>
+    <string name="shake_detector_stopped">Listener stopped.</string>
+    <string name="shake_detector_destroyed">Listener Destroyed.</string>
+    <string name="shake_detected">Shake detected. Send toast</string>
+    <string name="device_shaken">Device shaken!</string>
+    <string name="update_sensibility">Update \"sensibility\" to: %.1fG</string>
+    <string name="update_shake_number">Update \"number of shakes to trigger\" to: %d</string>
+
+    <string name="title_activity_maps">MedLoco</string>
+    <string name="gps_network_not_enabled">GPS or network services are disabled. Do you wish to enable them? </string>
+    <string name="open_location_settings">Enable GPS</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="search_title">Search for Hospitals</string>
+    <string name="search_hint">Search for nearby hopsitals</string>
+    <string name="message_no_result">Sorry, we could not find any results matching your query. \nPlease try another query.</string>
+
+    <string-array name="array_option_type">
+        <item>Hospital</item>
+        <item>Doctor/Clinic</item>
+        <item>Dentist</item>
+    </string-array>
+
+    <string-array name="array_option_rank">
+        <item>Prominence</item>
+        <item>Distance</item>
+    </string-array>
+    <string name="shake_to_call">Shake to call</string>
+    <string name="shake_to_call_h">कॉल करने के लिए हिलाएँ</string>
+    <string name="paytm_karo">Paytm Karo!!</string>
+    <string name="paytm_karo_h">पीटीएम करो!!</string>
+    <string name="plant_disease_detection">Plant Disease Detection</string>
+    <string name="plant_disease_detection_h">पादप रोग का पता लगाना</string>
+
+</resources>

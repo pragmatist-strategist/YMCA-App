@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "586014944784",
+    "firebase_url": "https://ymcaapp-7676c.firebaseio.com",
+    "project_id": "ymcaapp-7676c",
+    "storage_bucket": "ymcaapp-7676c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586014944784:android:d849af1cc938a238",
+        "android_client_info": {
+          "package_name": "com.example.yogai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586014944784-cpm69pq60ueoj04u612r3074u7b4fu16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yogai",
+            "certificate_hash": "4f8dbb4772805590eff1d55c5e11711b8de62bea"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN0I4xDkceV6GXk1TVoHqiUSSXvQZo6GY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586014944784-38eqe27soa4iavdu1knv017pbbka5de9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
