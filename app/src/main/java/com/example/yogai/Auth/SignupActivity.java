@@ -14,9 +14,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.android.waterborne.MenuScreen;
-import com.example.android.waterborne.R;
-import com.example.yogai.R;
+import com.example.yogai.MainActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -85,7 +83,7 @@ public class SignupActivity extends AppCompatActivity {
 
     private void updateUI(FirebaseUser currentUser){
         Toast.makeText(this, "Welcome " + currentUser.getDisplayName(), Toast.LENGTH_SHORT).show();
-        startActivity(new Intent(getBaseContext(),MenuScreen.class));
+        startActivity(new Intent(getBaseContext(),MainActivity.class));
         finish();
     }
 
@@ -146,7 +144,7 @@ public class SignupActivity extends AppCompatActivity {
 
     public void onSignupSuccess() {
         _signupButton.setEnabled(true);
-        startActivity(new Intent(getBaseContext(),MenuScreen.class));
+        startActivity(new Intent(getBaseContext(),MainActivity.class));
 //        setResult(RESULT_OK, null);
         finish();
     }
